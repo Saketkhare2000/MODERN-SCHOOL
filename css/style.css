@@ -1,0 +1,167 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'montserrat', sans-serif;
+    
+    
+
+    
+}
+
+.affix {
+    top: 0;
+    width: 100%;
+    z-index: 9999 !important;
+  }
+
+  .affix + .container-fluid {
+    padding-top: 70px;
+}
+
+
+
+
+#news{
+
+    border-radius: 20px;
+    background-color: #171B60;
+    box-shadow: rgba(15, 15, 15, 0.15);
+    padding-top: 10px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-weight: 500;
+    color: white;
+
+
+}
+#news:hover {
+
+   
+        -webkit-box-shadow: 0 2px 40px 8px rgba(15, 15, 15, 0.15);
+        box-shadow: 0 2px 40px 8px rgba(15, 15, 15, 0.15);
+        background-color: #F3A633;
+        color: #ffffff;
+        transition: ease-in 200ms;
+        font-weight: 500;
+        color: black;
+
+}
+
+
+#news-2{
+
+    border-radius: 20px;
+    background-color: #F3A633;
+    box-shadow: rgba(15, 15, 15, 0.15);
+    padding-bottom: 80px;
+    padding-top: 20px;
+    text-align: justify;
+    
+    
+    
+    
+    
+}
+
+.innersvg{
+    --height: calc(100% + 20px)
+    max-width: 70%;
+}
+
+#nav-logo{
+    height: ;: var(--height);
+}
+
+#news-2:hover {
+
+
+
+        box-shadow: 0 2px 40px 8px rgba(15, 15, 15, 0.15);
+        background-color: #171B60;
+        color: #ffffff;
+        transition: ease-in-out 200ms;
+
+
+}
+
+
+
+#news p {
+    cursor: pointer;
+}
+
+
+#achievements{
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+
+.teacherImg{
+
+    margin-left: 25%;
+    margin-top: 20px;
+}
+
+.nameTeacher{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+p a.btn{
+    background-color: #171B60;
+    color: white;
+}
+
+p a.btn:hover{
+    background-color: #F3A633;
+    color: black;
+}
+
+
+.text-bot{
+    text-align: center;
+    margin: 20px;
+}
+
+.display-4{
+    
+    font-weight: 300;
+}
+
+.cd-text{
+    margin-top: 10px;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.lineU{
+    width: 150px;
+    height: 2px;
+    position: relative;
+    left: 25%;
+    background-color: #F3A633;
+}
+
+#card-txt{
+    text-align: center;
+    font-weight: 550;
+}
+
+.lineK{
+    width: 130px;
+    height: 2px;
+    
+    background-color: #F3A633;
+    margin-bottom: 10px;
+    
+}
+
+h1, h2{
+    color: #171B60;
+}

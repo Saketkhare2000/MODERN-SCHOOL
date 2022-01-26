@@ -1,0 +1,16 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'montserrat', sans-serif;
+}
+
+.btn.btn-block.my-4{
+    background-color: #171B60;
+    color: white;
+}
+
+.btn.btn-block.my-4:hover{
+    background-color: #F3A633;
+    color: black;
+}

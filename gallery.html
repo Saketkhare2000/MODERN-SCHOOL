@@ -1,0 +1,441 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- CSS-->
+    <link rel="stylesheet" href="./css/gallery.css">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Quicksand:wght@500&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> 
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+    <title>Modern School</title>
+
+    
+  </head>
+  <body>
+
+    <style>
+      .heading {
+        color: darkblue;
+      }
+    </style>
+
+    <!--navbar logo-->
+    <div id="nav-logo" style="background-color:#171B60 ; display: flex; align-items: center; justify-content: center;">
+      <svg width="550" height="150" viewBox="0 0 1127 284" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M388.29 119L388.214 87.08L372.558 113.376H367.01L351.43 87.764V119H339.878V65.8H350.062L369.974 98.86L389.582 65.8H399.69L399.842 119H388.29ZM438.228 119.912C432.706 119.912 427.715 118.721 423.256 116.34C418.848 113.959 415.378 110.691 412.844 106.536C410.362 102.331 409.12 97.6187 409.12 92.4C409.12 87.1813 410.362 82.4947 412.844 78.34C415.378 74.1347 418.848 70.8413 423.256 68.46C427.715 66.0787 432.706 64.888 438.228 64.888C443.751 64.888 448.716 66.0787 453.124 68.46C457.532 70.8413 461.003 74.1347 463.536 78.34C466.07 82.4947 467.336 87.1813 467.336 92.4C467.336 97.6187 466.07 102.331 463.536 106.536C461.003 110.691 457.532 113.959 453.124 116.34C448.716 118.721 443.751 119.912 438.228 119.912ZM438.228 109.424C441.37 109.424 444.207 108.715 446.74 107.296C449.274 105.827 451.25 103.8 452.668 101.216C454.138 98.632 454.872 95.6933 454.872 92.4C454.872 89.1067 454.138 86.168 452.668 83.584C451.25 81 449.274 78.9987 446.74 77.58C444.207 76.1107 441.37 75.376 438.228 75.376C435.087 75.376 432.25 76.1107 429.716 77.58C427.183 78.9987 425.182 81 423.712 83.584C422.294 86.168 421.584 89.1067 421.584 92.4C421.584 95.6933 422.294 98.632 423.712 101.216C425.182 103.8 427.183 105.827 429.716 107.296C432.25 108.715 435.087 109.424 438.228 109.424ZM476.589 65.8H500.757C506.533 65.8 511.625 66.9147 516.033 69.144C520.492 71.3227 523.937 74.4133 526.369 78.416C528.852 82.4187 530.093 87.08 530.093 92.4C530.093 97.72 528.852 102.381 526.369 106.384C523.937 110.387 520.492 113.503 516.033 115.732C511.625 117.911 506.533 119 500.757 119H476.589V65.8ZM500.149 108.892C505.469 108.892 509.7 107.423 512.841 104.484C516.033 101.495 517.629 97.4667 517.629 92.4C517.629 87.3333 516.033 83.3307 512.841 80.392C509.7 77.4027 505.469 75.908 500.149 75.908H488.901V108.892H500.149ZM580.57 109.12V119H539.378V65.8H579.582V75.68H551.614V87.232H576.314V96.808H551.614V109.12H580.57ZM624.263 119L614.003 104.18H613.395H602.679V119H590.367V65.8H613.395C618.107 65.8 622.185 66.5853 625.631 68.156C629.127 69.7267 631.812 71.956 633.687 74.844C635.561 77.732 636.499 81.152 636.499 85.104C636.499 89.056 635.536 92.476 633.611 95.364C631.736 98.2013 629.051 100.38 625.555 101.9L637.487 119H624.263ZM624.035 85.104C624.035 82.1147 623.072 79.8347 621.147 78.264C619.221 76.6427 616.409 75.832 612.711 75.832H602.679V94.376H612.711C616.409 94.376 619.221 93.5653 621.147 91.944C623.072 90.3227 624.035 88.0427 624.035 85.104ZM695.045 65.8V119H684.937L658.413 86.7V119H646.253V65.8H656.437L682.885 98.1V65.8H695.045ZM811.206 119.912C807.001 119.912 802.922 119.355 798.97 118.24C795.069 117.075 791.927 115.58 789.546 113.756L793.726 104.484C796.006 106.156 798.717 107.499 801.858 108.512C804.999 109.525 808.141 110.032 811.282 110.032C814.778 110.032 817.362 109.525 819.034 108.512C820.706 107.448 821.542 106.055 821.542 104.332C821.542 103.065 821.035 102.027 820.022 101.216C819.059 100.355 817.793 99.6707 816.222 99.164C814.702 98.6573 812.625 98.1 809.99 97.492C805.937 96.5293 802.618 95.5667 800.034 94.604C797.45 93.6413 795.221 92.096 793.346 89.968C791.522 87.84 790.61 85.0027 790.61 81.456C790.61 78.3653 791.446 75.5787 793.118 73.096C794.79 70.5627 797.298 68.5613 800.642 67.092C804.037 65.6227 808.166 64.888 813.03 64.888C816.425 64.888 819.743 65.2933 822.986 66.104C826.229 66.9147 829.066 68.08 831.498 69.6L827.698 78.948C822.783 76.1613 817.869 74.768 812.954 74.768C809.509 74.768 806.95 75.3253 805.278 76.44C803.657 77.5547 802.846 79.024 802.846 80.848C802.846 82.672 803.783 84.04 805.658 84.952C807.583 85.8133 810.497 86.6747 814.398 87.536C818.451 88.4987 821.77 89.4613 824.354 90.424C826.938 91.3867 829.142 92.9067 830.966 94.984C832.841 97.0613 833.778 99.8733 833.778 103.42C833.778 106.46 832.917 109.247 831.194 111.78C829.522 114.263 826.989 116.239 823.594 117.708C820.199 119.177 816.07 119.912 811.206 119.912ZM867.651 119.912C862.229 119.912 857.315 118.747 852.907 116.416C848.549 114.035 845.104 110.767 842.571 106.612C840.088 102.407 838.847 97.6693 838.847 92.4C838.847 87.1307 840.088 82.4187 842.571 78.264C845.104 74.0587 848.549 70.7907 852.907 68.46C857.315 66.0787 862.255 64.888 867.727 64.888C872.337 64.888 876.492 65.6987 880.191 67.32C883.94 68.9413 887.081 71.272 889.615 74.312L881.711 81.608C878.113 77.4533 873.655 75.376 868.335 75.376C865.041 75.376 862.103 76.1107 859.519 77.58C856.935 78.9987 854.908 81 853.439 83.584C852.02 86.168 851.311 89.1067 851.311 92.4C851.311 95.6933 852.02 98.632 853.439 101.216C854.908 103.8 856.935 105.827 859.519 107.296C862.103 108.715 865.041 109.424 868.335 109.424C873.655 109.424 878.113 107.321 881.711 103.116L889.615 110.412C887.081 113.503 883.94 115.859 880.191 117.48C876.441 119.101 872.261 119.912 867.651 119.912ZM946.721 65.8V119H934.409V97.188H910.241V119H897.929V65.8H910.241V86.776H934.409V65.8H946.721ZM985.072 119.912C979.549 119.912 974.559 118.721 970.1 116.34C965.692 113.959 962.221 110.691 959.688 106.536C957.205 102.331 955.964 97.6187 955.964 92.4C955.964 87.1813 957.205 82.4947 959.688 78.34C962.221 74.1347 965.692 70.8413 970.1 68.46C974.559 66.0787 979.549 64.888 985.072 64.888C990.595 64.888 995.56 66.0787 999.968 68.46C1004.38 70.8413 1007.85 74.1347 1010.38 78.34C1012.91 82.4947 1014.18 87.1813 1014.18 92.4C1014.18 97.6187 1012.91 102.331 1010.38 106.536C1007.85 110.691 1004.38 113.959 999.968 116.34C995.56 118.721 990.595 119.912 985.072 119.912ZM985.072 109.424C988.213 109.424 991.051 108.715 993.584 107.296C996.117 105.827 998.093 103.8 999.512 101.216C1000.98 98.632 1001.72 95.6933 1001.72 92.4C1001.72 89.1067 1000.98 86.168 999.512 83.584C998.093 81 996.117 78.9987 993.584 77.58C991.051 76.1107 988.213 75.376 985.072 75.376C981.931 75.376 979.093 76.1107 976.56 77.58C974.027 78.9987 972.025 81 970.556 83.584C969.137 86.168 968.428 89.1067 968.428 92.4C968.428 95.6933 969.137 98.632 970.556 101.216C972.025 103.8 974.027 105.827 976.56 107.296C979.093 108.715 981.931 109.424 985.072 109.424ZM1049.2 119.912C1043.67 119.912 1038.68 118.721 1034.23 116.34C1029.82 113.959 1026.35 110.691 1023.81 106.536C1021.33 102.331 1020.09 97.6187 1020.09 92.4C1020.09 87.1813 1021.33 82.4947 1023.81 78.34C1026.35 74.1347 1029.82 70.8413 1034.23 68.46C1038.68 66.0787 1043.67 64.888 1049.2 64.888C1054.72 64.888 1059.69 66.0787 1064.09 68.46C1068.5 70.8413 1071.97 74.1347 1074.51 78.34C1077.04 82.4947 1078.31 87.1813 1078.31 92.4C1078.31 97.6187 1077.04 102.331 1074.51 106.536C1071.97 110.691 1068.5 113.959 1064.09 116.34C1059.69 118.721 1054.72 119.912 1049.2 119.912ZM1049.2 109.424C1052.34 109.424 1055.18 108.715 1057.71 107.296C1060.24 105.827 1062.22 103.8 1063.64 101.216C1065.11 98.632 1065.84 95.6933 1065.84 92.4C1065.84 89.1067 1065.11 86.168 1063.64 83.584C1062.22 81 1060.24 78.9987 1057.71 77.58C1055.18 76.1107 1052.34 75.376 1049.2 75.376C1046.06 75.376 1043.22 76.1107 1040.69 77.58C1038.15 78.9987 1036.15 81 1034.68 83.584C1033.26 86.168 1032.55 89.1067 1032.55 92.4C1032.55 95.6933 1033.26 98.632 1034.68 101.216C1036.15 103.8 1038.15 105.827 1040.69 107.296C1043.22 108.715 1046.06 109.424 1049.2 109.424ZM1087.56 65.8H1099.87V108.968H1126.55V119H1087.56V65.8ZM607.964 220.912C604.366 220.912 601.048 220.253 598.008 218.936C595.018 217.568 592.561 215.643 590.636 213.16L597.476 204.952C600.364 208.853 603.657 210.804 607.356 210.804C612.372 210.804 614.88 207.865 614.88 201.988V176.68H596.184V166.8H627.116V201.304C627.116 207.84 625.494 212.755 622.252 216.048C619.009 219.291 614.246 220.912 607.964 220.912ZM673.199 208.6H648.499L643.787 220H631.171L654.883 166.8H667.043L690.831 220H677.911L673.199 208.6ZM669.323 199.252L660.887 178.884L652.451 199.252H669.323ZM696.351 166.8H708.663V220H696.351V166.8ZM744.316 166.8C749.028 166.8 753.107 167.585 756.552 169.156C760.048 170.727 762.734 172.956 764.608 175.844C766.483 178.732 767.42 182.152 767.42 186.104C767.42 190.005 766.483 193.425 764.608 196.364C762.734 199.252 760.048 201.481 756.552 203.052C753.107 204.572 749.028 205.332 744.316 205.332H733.6V220H721.288V166.8H744.316ZM743.632 195.3C747.331 195.3 750.143 194.515 752.068 192.944C753.994 191.323 754.956 189.043 754.956 186.104C754.956 183.115 753.994 180.835 752.068 179.264C750.143 177.643 747.331 176.832 743.632 176.832H733.6V195.3H743.632ZM799.624 220.912C792.024 220.912 786.096 218.809 781.84 214.604C777.634 210.399 775.532 204.395 775.532 196.592V166.8H787.844V196.136C787.844 205.661 791.796 210.424 799.7 210.424C803.55 210.424 806.489 209.284 808.516 207.004C810.542 204.673 811.556 201.051 811.556 196.136V166.8H823.716V196.592C823.716 204.395 821.588 210.399 817.332 214.604C813.126 218.809 807.224 220.912 799.624 220.912ZM869.778 220L859.518 205.18H858.91H848.194V220H835.882V166.8H858.91C863.622 166.8 867.701 167.585 871.146 169.156C874.642 170.727 877.328 172.956 879.202 175.844C881.077 178.732 882.014 182.152 882.014 186.104C882.014 190.056 881.052 193.476 879.126 196.364C877.252 199.201 874.566 201.38 871.07 202.9L883.002 220H869.778ZM869.55 186.104C869.55 183.115 868.588 180.835 866.662 179.264C864.737 177.643 861.925 176.832 858.226 176.832H848.194V195.376H858.226C861.925 195.376 864.737 194.565 866.662 192.944C868.588 191.323 869.55 189.043 869.55 186.104Z" fill="white"/>
+        <g clip-path="url(#clip0)">
+        <path d="M195.25 53.25C195.25 23.8405 171.41 0 142 0C112.59 0 88.75 23.8405 88.75 53.25C88.75 82.6595 112.59 106.5 142 106.5C171.41 106.5 195.25 82.6595 195.25 53.25ZM129.569 133.735C96.6598 113.589 43.3544 108.053 16.5297 106.528C7.51602 106.017 0 112.884 0 121.554V245.139C0 253.087 6.42883 259.716 14.6937 260.143C38.9113 261.413 87.9069 266.067 121.771 283.124C126.968 285.742 133.131 282.175 133.131 276.539V140.092C133.125 137.501 131.844 135.127 129.569 133.735ZM267.47 106.528C240.651 108.048 187.34 113.589 154.436 133.735C152.162 135.127 150.881 137.596 150.881 140.186V276.523C150.881 282.175 157.06 285.747 162.274 283.124C196.132 266.084 245.1 261.43 269.312 260.16C277.577 259.727 284.006 253.098 284.006 245.15V121.554C284 112.884 276.484 106.017 267.47 106.528V106.528Z" fill="#F3A633"/>
+        </g>
+        <defs>
+        <clipPath id="clip0">
+        <rect width="284" height="284" fill="white"/>
+        </clipPath>
+        </defs>
+        </svg>
+
+        </div>
+
+        <!--navbar----->
+        <nav class="navbar navbar-expand-lg navbar-light sticky-top my-0" style="background-color: #F3A633; ">
+            
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse  weight" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto ml-auto">
+                <li class="nav-item active pr-4">
+                  <a class="nav-link" href="index.html"style="color: #85282A;">Home</a>
+                </li> <li class="nav-item active pr-4 ">
+                    <a class="nav-link" href="./gallery.html"style="color: #85282A;">Gallery</a>
+                  </li>
+                  <li class="nav-item active pr-4 ">
+                    <a class="nav-link" href="./academics.html"style="color: #85282A;">Academics</a>
+                  </li>
+                  <li class="nav-item active pr-4 ">
+                    <a class="nav-link" href="./admission.html"style="color: #85282A;">Admissions</a>
+                  </li>
+                  <li class="nav-item dropdown pr-4 ">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" style="color: #85282A;" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Student Section
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <a class="dropdown-item" href="login.html">Login</a>
+                      <a class="dropdown-item" href="#">Video Lectures</a>
+                      
+                      <a class="dropdown-item" href="#">Study Material</a>
+                    </div>
+                  </li><li class="nav-item active pr-4 ">
+                    <a class="nav-link" href="./cultural.html" style="color:#85282A;">Cultural</a>
+                  </li>
+                  <li class="nav-item d pr-4 ">
+                    <a class="nav-link " href="./sports.html" style="color: #85282A;"role="button">
+                      Sports
+                    </a>
+                    
+                  </li><li class="nav-item pr-4 ">
+                    <a class="nav-link " href="./student-council.html"  style="color: #85282A;">
+                      Student Coucil
+                    </a>
+                    
+                  </li>
+                    <li class="nav-item pr-4">
+                      <a class="nav-link" href="contact.html" style="color: #85282A;">Contact Us</a>
+                    </li>
+                    
+                 
+              </ul>
+              
+            </div>
+          </nav>
+
+
+    <!-- Carousel Starts Here-->
+
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="6"></li>
+        </ol>
+        <div class="carousel-inner" >
+          <div class="carousel-item active">
+            <img class="d-block w-100" src="images/school2.jpg" alt="First slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="images\hall.jpg" alt="Second slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="images\classroom1.jpg" alt="Third slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="images\library2.jpg" alt="Fourth slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="images\soccer.jpg" alt="Fifth slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="images\lab.jpg" alt="Sixth slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="images\football-2-1.jpg" alt="Seventh slide">
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    
+     
+    <!-- Students Achievements-->
+    <div class="container-fluid">
+
+      <!-- Heading -->
+      <div  class="container pt-5 heading" align="center">
+        <h1 >ACHIEVEMENTS</h1>
+        <div class="underline"></div>
+      </div>
+
+          <div class="album py-5 bg-light">
+            <div class="container">
+              <div class="row">
+
+                <!-- Topper 1 "Siddhant Pengoriya" -->
+                <div class="col-md-4" data-aos="zoom-in">
+                  <div class="card mb-4 shadow-sm">
+                    <img class="bd-placeholder-img card-img-top" alt="Siddhant Pengoriya" width="100%" height="225" src="images\Siddhant Pengoriya (Noida).jpg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/>
+                    <div class="card-body">
+                      <h3 class="card-text">Siddhant Pengoriya</h3>
+                      <p class="card-text">Siddhant Pengoriya is among the thirteen toppers who scored 499 out of 500 in the exam. Candidates can check their result on cbse.nic.in and cbseresults.nic.in. Siddhant Pengoriya is from Modern School in Jaipur, Rajasthan.</p>
+                      <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                          <button type="button" class="btn btn-sm blue">View</button>                        
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Topper 2 "Jagnoor Kaur Chandi" -->
+                <div class="col-md-4" data-aos="zoom-in">
+                  <div class="card mb-4 shadow-sm">
+                    <img class="bd-placeholder-img card-img-top" alt="Jagnoor Kaur Chandi" width="100%" height="225" src="images\topper-2.PNG" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/>
+                    <div class="card-body">
+                      <h3 class="card-text">Jagnoor Kaur Chandi</h3>
+                      <p class="card-text"> Scoring 497 marks in the CBSE X board exams, whose results were announced on Monday. She was a student of Modern School, Jaipur. She said that she wants to become a doctor. We are proud of having students like her.</p>
+                      <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                          <button type="button" class="btn btn-sm blue">View</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Topper 3 "Hanshika Shukla" -->
+                <div class="col-md-4" data-aos="zoom-in">
+                  <div class="card mb-4 shadow-sm">
+                    <img class="bd-placeholder-img card-img-top" alt="Hanshika Shukla" width="100%" height="225" src="./images/819252-hansika-cbse-pti.jpg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/>
+                    <div class="card-body">
+                      <h3 class="card-text">Hanshika Shukla</h3>
+                      <p class="card-text">Hansika Shukla, catapulted to instant stardom after topping the Central Board of Secondary Education (CBSE) Class 12 examinations and she has "no regrets" for missing out that one last point that earned her an astonishing 499 out of 500 marks.</p>
+                      <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                          <button type="button" class="btn btn-sm blue">View</button>                 
+                        </div>               
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="container">
+                  <hr>
+                </div>
+                
+                <!-- School Album Starts Here-->
+                <div  class="container pb-5 heading" align="center">
+                  <h1 >SCHOOL PREMISES </h1>
+                  <div class="underline"></div>
+               </div>
+                
+               <!-- Main School Building-->
+                <div class="col-md-4" data-aos="zoom-in">
+                
+                  <div class="card mb-4 shadow-sm">
+                    <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="images\school.jpg" alt="School Building" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/>
+                    <div class="card-body">
+                      <h3 class="card-text">Main School Building</h3>
+                      <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                          <button type="button" class="btn btn-sm blue">View</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Classroom-->
+                <div class="col-md-4" data-aos="zoom-in">
+                  <div class="card mb-4 shadow-sm">
+                    <img class="bd-placeholder-img card-img-top" alt="Classroom" width="100%" height="225" src="images\classroom.jpg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/>
+                    <div class="card-body">
+                      <h3 class="card-text">Classroom</h3>
+                      <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                          <button type="button" class="btn btn-sm blue">View</button>
+                        </div>               
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!--Main Hall-->
+                <div class="col-md-4" data-aos="zoom-in">
+                  <div class="card mb-4 shadow-sm">
+                    <img class="bd-placeholder-img card-img-top" alt="Main Hall" width="100%" height="225" src="images\hall1.jpg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/>
+                    <div class="card-body">
+                      <H3 class="card-text">Main Hall</H3>
+                      <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                          <button type="button" class="btn btn-sm blue">View</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+               
+                <!--Library-->
+                <div class="col-md-4" data-aos="zoom-in">
+                  <div class="card mb-4 shadow-sm">
+                    <img class="bd-placeholder-img card-img-top" alt="Library" width="100%" height="225" src="images\library.jpg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/>
+                    <div class="card-body">
+                      <h3 class="card-text">Library</h3>
+                      <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                          <button type="button" class="btn btn-sm blue">View</button>                      
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Chemistry Lab-->
+                <div class="col-md-4" data-aos="zoom-in">
+                  <div class="card mb-4 shadow-sm">
+                    <img class="bd-placeholder-img card-img-top" alt="Chemistry Lab" src="./images/chem-lab.jpeg" width="100%" height="225" src="" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/>
+                    <div class="card-body">
+                      <h3 class="card-text">Chemistry Lab</h3>
+                      <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                          <button type="button" class="btn btn-sm blue">View</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Computer Lab-->
+                <div class="col-md-4" data-aos="zoom-in">
+                  <div class="card mb-4 shadow-sm">
+                    <img class="bd-placeholder-img card-img-top" alt="Computer lab" width="100%" height="225" src="images\lab.jpg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/>
+                    <div class="card-body">
+                      <h3 class="card-text">Computer Lab</h3>
+                      <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                          <button type="button" class="btn btn-sm blue">View</button>                        
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>        
+    </div>
+    <!-- Ending gallery-->
+    
+    <section id="footer" style="overflow-x: hidden;">
+
+       <!-- Footer -->
+<footer class="page-footer font-small unique-color-dark" style="margin-top: 10px;">
+
+  <div style="background-color: #171B60; color: white;">
+    <div class="container">
+
+      <!-- Grid row-->
+      <div class="row py-4 d-flex align-items-center">
+
+        <!-- Grid column -->
+        <div class="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0">
+          <h5 class="mb-0">Get connected with us on social networks!</h6>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-6 col-lg-7 text-center text-md-right">
+
+          <!-- Facebook -->
+          <a class="fb-ic" href="#" style="text-decoration: none; color: white;">
+            <i class="fa fa-facebook-f white-text mr-4"> </i>
+          </a>
+          <!-- Twitter -->
+          <a class="tw-ic" href="#" style="text-decoration: none; color: white;">
+            <i class="fa fa-twitter white-text mr-4"> </i>
+          </a>
+          <!--Instagram-->
+          <a class="ins-ic" href="#" style="text-decoration: none; color: white;">
+            <i class="fa fa-instagram white-text" > </i>
+          </a>
+
+        </div>
+        <!-- Grid column -->
+
+      </div>
+      <!-- Grid row-->
+
+    </div>
+  </div>
+
+  <!-- Footer Links -->
+  <div class=" text-center text-md-left py-5" style="background-color:#F3A633;">
+
+    <!-- Grid row -->
+    <div class="row ">
+
+      <!-- Grid column -->
+      <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mb-4">
+
+        <!-- Content -->
+        <h6 class="text-uppercase font-weight-bold">Modern School</h6>
+        <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px; text-align: justify;">
+        <p> Lorem ipsum dolor sit amet,
+          consectetur Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iusto, obcaecati?
+          adipisicing elit.</p>
+
+      </div>
+     
+      <!-- Grid column -->
+      <div class="col-md-3 col-lg-3 col-xl-2 mx-auto mb-4">
+
+        <!-- Links -->
+        <h6 class="text-uppercase font-weight-bold">Useful links</h6>
+        <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+        <p>
+          <a href="#!" style="color:#171B60; font-weight: 500;">Admissions</a>
+        </p>
+        <p>
+          <a href="#!" style="color:#171B60; font-weight: 500;">Contact Us</a>
+        </p>
+        <p>
+          <a href="#!" style="color:#171B60; font-weight: 500;">Sports</a>
+        </p>
+        <p>
+          <a href="#!" style="color:#171B60; font-weight: 500;">Help</a>
+        </p>
+
+      </div>
+      <!-- Grid column -->
+
+      <!-- Grid column -->
+      <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+
+        <!-- Links -->
+        <h6 class="text-uppercase font-weight-bold">Contact</h6>
+        <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+        <p>
+          <i class="fa fa-home pr-4 "></i> Jaipur </p>
+        <p>
+          <i class="fa fa-envelope pr-4 "></i> info@modernjaipur.com</p>
+        <p>
+          <i class="fa fa-phone pr-4 "></i> + 91 234 567 78</p>
+        <p>
+          <i class="fa fa-print pr-4 "></i> + 91 234 567 69</p>
+
+      </div>
+      <!-- Grid column -->
+
+    </div>
+    <!-- Grid row -->
+
+  </div>
+  <!-- Footer Links -->
+
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-3" style="background-color: #171B60; color: white;">© 2020 Copyright:
+    <a href="https://docogen.com/"> Docogen.com</a>
+  </div>
+  <!-- Copyright -->
+
+</footer>
+</section>
+<!-- Footer -->
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+<script>
+  AOS.init();
+</script>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>
